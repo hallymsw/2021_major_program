@@ -3,25 +3,18 @@ package ch04_pr;
 import java.util.Scanner;
 public class ch04_loop_Pr_101 {
 	public static void main(String[] args) {
-		Scanner sc  =new Scanner(System.in);
-		String inputStr = sc.next();
-		
-		if(inputStr.equals("A")) {
-			System.out.println("Excellent");
-		}else if(inputStr.equals("B")) {
-			System.out.println("Good");
-		}else if(inputStr.equals("C")) {
-			System.out.println("Usually");
-		}else if(inputStr.equals("D")) {
-			System.out.println("Excellent");
-		}else if(inputStr.equals("E")) {
-			System.out.println("Effort");
-		}else if(inputStr.equals("F")) {
-			System.out.println("Failure");
-		}else {
-			System.out.println("error");
-		}
-		
+		int n;
+	     Scanner sc = new Scanner(System.in);
+	     n = sc.nextInt();
+	     for(int i=0;i<n;i++){
+	         for(int j=0;j<i;j++){
+	          System.out.print(" ");
+	         }
+	         for(int j=0;j<((n-i)*2-1);j++){
+	          System.out.print("*");
+	         }
+	         System.out.println("");
+	     }
 		sc.close();
 	
 	}
