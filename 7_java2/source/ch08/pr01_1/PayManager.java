@@ -38,7 +38,7 @@ public class PayManager {
 		}
 		
 		else{
-			ret=-1;
+			balance=-1;
 		}
 //		accountNum=pi.pay(accountNum);
 		return balance;
