@@ -6,12 +6,12 @@ public class MainClass {
 		int bCode=1,price=5000, num=3;
 		int accNumber=010;
 		int retVal=0;
-		PaymentInterface pi = new Spay();
-		
+		PaymentInterface pi = new Ppay();
+//		
 		PayManager pm = new PayManager();
 		pm.setPayObj(pi);
-		retVal=pm.buy(bCode,price,num);
-		retVal=pm.checkBalance(bCode,accNumber);
+		retVal=pm.buy(price,num);
+		retVal=pm.checkBalance(accNumber);
 
 	}
 
