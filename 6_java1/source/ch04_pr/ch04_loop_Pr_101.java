@@ -1,7 +1,7 @@
 package ch04_pr;
 
 import java.util.Scanner;
-public class ch04_loop_Pr_101 {
+public class Ch04_loop_Pr_101 {
 	public static void main(String[] args) {
 		int n;
 	     Scanner sc = new Scanner(System.in);
