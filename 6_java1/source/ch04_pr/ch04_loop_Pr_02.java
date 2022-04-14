@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ch04_loop_Pr_02 {
 	public static void main(String[] args) {
 		Scanner sc  =new Scanner(System.in);
-		int num=0, count=0, sum=0;
+		double num=0, count=0, sum=0;
 		double avg=0;
 		//2. 반복문 - 입력, 처리
 		while(true) {
@@ -25,7 +25,8 @@ public class ch04_loop_Pr_02 {
 		}
 		//5. 평균 -> 합계/카운팅
 		avg=sum/count;
-		
+		System.out.println(avg);
+
 
 	}
 }
